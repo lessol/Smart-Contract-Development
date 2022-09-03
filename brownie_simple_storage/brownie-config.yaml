@@ -1,0 +1,5 @@
+# tells brownie when you run scripts grab the envrionemnt vars from .env file
+dotenv: .env
+
+wallets:
+  from_key: ${PRIVATE_KEY}
